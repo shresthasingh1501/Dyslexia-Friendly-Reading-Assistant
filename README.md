@@ -4,19 +4,6 @@
 
 This project introduces a powerful and user-friendly reading assistant designed to support individuals with dyslexia. By leveraging the capabilities of OpenAI's GPT-4 Vision and Text-to-Speech API, this application transforms images of text into an accessible and engaging reading experience.
 
-**Imagine:**
-
-* **Effortlessly converting images of text into easily readable text.**
-* **Listening to the text with natural-sounding speech.**
-* **Empowering individuals with dyslexia to access information with greater ease and confidence.**
-
-**Key Features:**
-
-* **Image-to-Text Conversion:**  Utilizes GPT-4 Vision for accurate and efficient OCR (Optical Character Recognition).
-* **Dyslexia-Friendly Formatting:** Presents text in a clear and readable format, optimized for individuals with dyslexia.
-* **Text-to-Speech Functionality:** Generates natural-sounding speech from the extracted text, enhancing comprehension and engagement.
-* **User-Friendly Interface:**  Built with Gradio for a seamless and intuitive user experience.
-
 ## Live Demo
 
 Experience the power of the Dyslexia-Friendly Reading Assistant firsthand with our interactive demo hosted on Hugging Face Spaces:
@@ -29,13 +16,27 @@ Here's a visual representation of how the application works:
 
 ```mermaid
 graph LR
-    A[Input Image (Text)] --> B(GPT-4 Vision OCR)
+    A[Input Image] --> B(GPT-4 Vision OCR)
     B --> C[Extracted Text]
     C --> D[Dyslexia-Friendly Formatting]
     D --> E[Formatted Text Output]
     C --> F[Text-to-Speech (TTS)]
     F --> G[Audio Output]
 ```
+
+
+**Imagine:**
+
+* **Effortlessly converting images of text into easily readable text.**
+* **Listening to the text with natural-sounding speech.**
+* **Empowering individuals with dyslexia to access information with greater ease and confidence.**
+
+**Key Features:**
+
+* **Image-to-Text Conversion:**  Utilizes GPT-4 Vision for accurate and efficient OCR (Optical Character Recognition).
+* **Dyslexia-Friendly Formatting:** Presents text in a clear and readable format, optimized for individuals with dyslexia.
+* **Text-to-Speech Functionality:** Generates natural-sounding speech from the extracted text, enhancing comprehension and engagement.
+* **User-Friendly Interface:**  Built with Gradio for a seamless and intuitive user experience.
 
 ## Getting Started
 

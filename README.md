@@ -1,62 +1,75 @@
+# Dyslexia-Friendly Reading Assistant - Empowering Readers with AI
 
-# Dyslexia-Friendly Reading Assistant
+## Making Reading Accessible and Engaging for Everyone!
 
-Dyslexia-friendly OCR app: Converts images to readable text and speech.
+This project introduces a powerful and user-friendly reading assistant designed to support individuals with dyslexia. By leveraging the capabilities of OpenAI's GPT-4 Vision and Text-to-Speech API, this application transforms images of text into an accessible and engaging reading experience.
 
-## Description
+**Imagine:**
 
-This application is designed to assist individuals with dyslexia by converting images of text into a more readable format and providing an audio version. It uses OpenAI's GPT-4 Vision for OCR (Optical Character Recognition) and the Text-to-Speech API for audio generation.
+* **Effortlessly converting images of text into easily readable text.**
+* **Listening to the text with natural-sounding speech.**
+* **Empowering individuals with dyslexia to access information with greater ease and confidence.**
 
-## Features
+**Key Features:**
 
-- Image to text conversion using GPT-4 Vision
-- Dyslexia-friendly text formatting
-- Text-to-speech conversion
-- User-friendly interface using Gradio
+* **Image-to-Text Conversion:**  Utilizes GPT-4 Vision for accurate and efficient OCR (Optical Character Recognition).
+* **Dyslexia-Friendly Formatting:** Presents text in a clear and readable format, optimized for individuals with dyslexia.
+* **Text-to-Speech Functionality:** Generates natural-sounding speech from the extracted text, enhancing comprehension and engagement.
+* **User-Friendly Interface:**  Built with Gradio for a seamless and intuitive user experience.
 
-## Installation
+## Live Demo
 
-1. Clone this repository:
+Experience the power of the Dyslexia-Friendly Reading Assistant firsthand with our interactive demo hosted on Hugging Face Spaces:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/Hugging%20Face-Spaces-blue)](https://shresthasingh-dyslexia-friendly-reading-assistant.hf.space)
+
+## Workflow
+
+Here's a visual representation of how the application works:
+
+```mermaid
+graph LR
+    A[Input Image (Text)] --> B(GPT-4 Vision OCR)
+    B --> C[Extracted Text]
+    C --> D[Dyslexia-Friendly Formatting]
+    D --> E[Formatted Text Output]
+    C --> F[Text-to-Speech (TTS)]
+    F --> G[Audio Output]
+```
+
+## Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/shresthasingh1501/Dyslexia-Friendly-Reading-Assistant.git
    ```
-   git clone https://github.com/yourusername/dyslexia-friendly-reading-assistant.git
-   cd dyslexia-friendly-reading-assistant
-   ```
 
-2. Install the required dependencies:
-   ```
+2. **Install Dependencies:**
+   ```bash
    pip install gradio openai
    ```
 
-3. Replace the API key in the script:
-   Open `app.py` and replace `"your_api_key_here"` with your actual OpenAI API key.
+3. **Obtain an OpenAI API Key:**
+   * Visit [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys) to get your API key.
 
-## Usage
+4. **Update `app.py`:**
+   * Replace `"your_api_key_here"` with your actual OpenAI API key.
 
-1. Run the application:
-   ```
+5. **Run the Application:**
+   ```bash
    python app.py
    ```
 
-2. Open the provided Gradio interface URL in your web browser.
+## Usage
 
-3. Upload an image containing text.
-
-4. The app will process the image and display:
-   - The extracted text in a dyslexia-friendly format
-   - An audio player with the text-to-speech version of the content
-
-## Important Notes
-
-- This application uses a hardcoded API key for demonstration purposes. In a production environment, use secure methods to handle API keys.
-- Ensure you comply with OpenAI's use-case policies when using this application.
+1. **Open the Gradio Interface:** Access the provided URL in your web browser.
+2. **Upload an Image:** Select an image containing text.
+3. **View Results:** The app will display the extracted text in a dyslexia-friendly format and provide an audio player for the text-to-speech version.
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/dyslexia-friendly-reading-assistant/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-
+MIT

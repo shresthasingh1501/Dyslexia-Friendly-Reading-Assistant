@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 
 # Hardcoded API key (replace with your actual API key)
-API_KEY = "sk-GeJ-zPXVgIGC2UIhA42dvW2g6lsc9SXjkHMsU9S5EgT3BlbkFJiG94ZfVUll-OgSkIivuBYEa3xGIErTL_u6DSQDUt4A"
+API_KEY = ""
 
 def process_image(image_path):
     client = OpenAI(api_key=API_KEY)

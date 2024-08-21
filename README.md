@@ -20,7 +20,7 @@ graph LR
     B --> C[Extracted Text]
     C --> D[Dyslexia-Friendly Formatting]
     D --> E[Formatted Text Output]
-    C --> F[Text-to-Speech (TTS)]
+    C --> F[Text-to-Speech -TTS]
     F --> G[Audio Output]
 ```
 
